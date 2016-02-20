@@ -1,0 +1,63 @@
+<!--提示页-->
+
+
+<div ng-switch on="data.warning.status">
+
+  <div class="tsdadv" ng-switch-when='success' ng-click='closeWarning()'>
+    <div class="tsma">
+      <img src="teImg/rctslog.png" />
+      <span>{{data.warning.words}}</span> 
+    </div>
+  </div>
+
+
+  <div class="tsdadv" ng-switch-when='fail' ng-click='closeWarning()'>
+    <div class="tsma">
+      <img src="teImg/lbatsk.png" />
+      <span>{{data.warning.words}}</span> 
+    </div>
+  </div>
+
+</div>
+<!--提示页-->
+
+  <div ng-if="data.popup=='photo'" class="rztjtcdv">
+      <div class="rztjtcclbtn" ng-click='closePopup()'></div>
+      <div class="rztjtczsimg"><img src={{data.photo.order}} /></div>
+      <form class="rztjtczform">
+        <input type="button" class="rztjtczsasc"  value="确认上传"/>
+        <input type="button" class="rztjtczsacx" value="重新选择"/>
+      </form>
+  </div>
+
+
+
+<ion-tabs class="tabs-item-hide">
+  <ion-tab>
+    <ion-nav-view name="order-detail"></ion-nav-view>
+  </ion-tab>
+  <ion-tab>
+    <ion-nav-view name="common-register"></ion-nav-view>
+  </ion-tab>
+  <ion-tab>
+    <ion-nav-view name="booking-detail"></ion-nav-view>
+  </ion-tab>
+
+
+  <ion-tab>
+    <ion-nav-view name="common-product"></ion-nav-view>
+  </ion-tab>
+   <ion-tab>
+    <ion-nav-view name="common-product1"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab>
+    <ion-nav-view name="product-option"></ion-nav-view>
+  </ion-tab>
+   <ion-tab>
+    <ion-nav-view name="product-option1"></ion-nav-view>
+  </ion-tab>
+
+
+
+</ion-tabs>

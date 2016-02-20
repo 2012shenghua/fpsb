@@ -1,0 +1,8 @@
+/* 16年首页新增 -s */
+.xsynr4{width:100%;margin:0.2rem auto 0rem auto;overflow: hidden;position: relative;padding-top: 0.2rem;background: #efefef;}
+.xsynr4m{width: 96%;margin:0rem auto 0.2rem auto;position: relative;}
+.xsnr4mimg{width: 100%;/*position: absolute;left: 0rem;top: 0rem;*/}
+.xsnr4mimg>img{width: 100%;display: block;border-radius: 3px;}
+.xsynr4m>span{display: block;position: absolute;left: 3%;top: 17%;width: 59%;overflow: hidden;font-size: 0.44rem;color: #8491a4;line-height: 0.54rem;overflow: hidden;font-weight: bold;}
+.xsynr4m>em{display: block;position: absolute;left: 3%;top: 48%;width: 59%;overflow: hidden;font-size: 0.3rem;color:#e79700;line-height: 0.4rem;overflow: hidden;}
+.synr4yyx{width:100%; background:url(../teImg/xsybj.png) repeat-x; height:0.3rem;position: absolute;left: 0;top: 0;}

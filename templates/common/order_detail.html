@@ -1,0 +1,117 @@
+
+<ion-nav-bar>
+
+</ion-nav-bar>
+<div class="header">
+      <div class="hdlogo"><img src="teImg/logotop.png" /></div>
+      <div class="hdrback" ng-click="goBack()"></div>
+</div>
+
+
+
+<ion-view>
+
+
+    <ion-content class="content cls">
+    <div class="tddxqtnrdv">
+      <ul class="ddxqtopqhul"><!--top分类-s-->
+                   	<li ng-class="{ddxqcss : data.win=='detail'}"><a href="" ng-click="selectWin('detail')">订单详情</a></li>
+                    <li ng-class="{ddxqcss : data.win=='status'}"><a href="" ng-click="selectWin('status')">订单状态</a></li>
+      </ul><!--top分类-e-->
+    </div>
+      <div class="main1" ng-if="data.win=='detail'">
+
+            <div class="tddxqtnrdv">
+
+                
+                <div class="gxqbddnr">
+                  <div class="gxqbddnrf">
+                    <div><img src="teImg/gnr2rabm3.png" title="" alt="" /></div>
+                    <em>已完成</em>
+                  </div>
+                  <div class="gxqbddnrr">
+                     <span>[私募]粤财·瀚信中鼎盈丰2期</span>
+                     <span>当前持有资产(元) <em> 541300.20</em></span>
+                  </div>
+                </div>
+                
+                <div class="gxddnr3dv">
+                  <span>当前持有资产(元) <em>1312313</em></span>
+                  <span>投资笔数(笔) <em>21</em></span>
+                  <span>当前投资收益(元) <em>423434</em></span>
+                  <span>预期收益(元)<em> 532546543</em></span>
+                </div>
+                
+                <div class="ddxqxx"><!--订单信息-s-->
+                     <span>订单信息</span>
+                     <p>
+                        <em>交  易  号：576877888766566</em>
+                        <em>创建时间：2015-08-08</em>
+                        <em>付款时间：2015-09-01</em>
+                     </p>
+                   
+                  </div><!--订单信息-e-->
+                
+                
+                
+                
+            </div>
+      </div> <!--main1-->
+
+
+      <div class="main1" ng-if="data.win=='status'">
+      
+
+
+        <div class="tddztdv">
+
+            
+            
+            <div class="ddztf" ng-click="takePhoto()">
+               <div class="ddztfimg"><img src="teImg/ddztwj_03.png" /></div>
+               <a class="ddztspan"><img src="teImg/ddztjh.png" /></a>
+            </div>
+            <span class="ddxtmm">上传相关汇款证明</span>
+            
+            <div class="ddztxz">
+               <form>
+                <div class="ddxqswip">
+                   <span class="ddxtxzf">更改状态</span>
+                   <div class="ddxtzm">
+                     <div class="ddztxr"><img src="teImg/khlbxia.png" /></div>
+                     <select>
+                        <option value="volvo">待报备</option>
+                        <option value="saab">待审核</option>
+                        <option value="opel">已完成</option>
+                        <option value="audi">未通过</option>
+                      </select>
+                   </div>
+                </div>    
+                 
+                 <input type="submit" class="ddztqd" value="确定" />
+              </form> 
+            </div>
+            
+            
+         
+         </div>
+
+      </div> <!--main1-->
+       
+
+    </ion-content>
+
+</ion-view>
+
+
+
+
+
+
+
+            
+
+              
+              
+
+
